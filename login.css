@@ -1,7 +1,7 @@
 #login form>input{
     display: block;
     font-size: 14px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     width: 100%;
     border: none;
     margin: 5px 0px;
@@ -10,6 +10,14 @@
 
 #login form>input:not(:placeholder-shown):valid{
     background-image: url(success.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+}
+
+#login form>input:not(:placeholder-shown):invalid{
+    background-image: url(error.png);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: right;
