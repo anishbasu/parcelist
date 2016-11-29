@@ -8,14 +8,18 @@ body{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 60px;
+    min-height: 6vh;
     background-color: black;
     z-index: 9999;
     display: flex;
     align-content: flex-start;
     align-items: center;
     justify-content: space-between;
-    /padding: 0px 10px 0px 10px;
+    flex-wrap: wrap;
+}
+
+.fixed-top-nav a{
+    text-decoration: none;
 }
 
 .fixed-top-nav .nav-links{
@@ -25,6 +29,7 @@ body{
     flex-grow: 1
     flex-direction: row;
     padding: 0px 10px 0px 10px;
+    flex-wrap: wrap;
 }
 
 .fixed-top-nav .user-links{
@@ -33,13 +38,17 @@ body{
     flex-direction: row-reverse;
     padding: 0px 30px 0px 0px;
 }
+
 .nav-links a{
     margin: 0px 15px 0px 15px;
     text-transform: uppercase;
     font-weight: 400;
-    text-decoration: none;
     color: white;
     letter-spacing: 3px;
+}
+
+.nav-links a:hover{
+    color: darkgray;
 }
 
 .nav-links h1{
@@ -47,16 +56,21 @@ body{
     color: white;
     font-weight: 300;
     text-transform: uppercase;
+    margin: 0px 30px 0px 0px;
 }
 
-.button{
+article{
+    padding-top: 6vh;  
+}
+
+.user-links .button{
     border: 1px solid white;
     padding: 5px;
     border-radius: 5px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .button:hover{
@@ -95,9 +109,11 @@ footer{
 span.heart{
     color: crimson;
 }
+
 footer h2{
     font-size: 10pt;
 }
+
 @media only screen and (max-width: 500px) {
     
 }

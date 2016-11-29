@@ -40,6 +40,7 @@ section .content h1{
     font-weight: 300;
     color: azure;
     margin: 0;
+    text-align: center;
 }
 
 #intro-section h2{
@@ -49,6 +50,7 @@ section .content h1{
     letter-spacing: 2px;
     color: azure;
     margin: 0;
+    text-align: center;
 }
 
 
