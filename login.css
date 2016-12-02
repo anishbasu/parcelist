@@ -57,5 +57,10 @@
 
 #login-section{
    background-image: url(stars.png), linear-gradient(#004d76,#3c89ac);
-   padding: 0;
+}
+
+#login>h1{
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }

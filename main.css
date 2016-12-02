@@ -90,11 +90,6 @@ section .content{
     max-width: 60vw;
 }
 
-section .content{
-    font-size: 17pt;
-    font-weight: 300;
-}
-
 footer{
     height: 10vh;
     background-color: black;

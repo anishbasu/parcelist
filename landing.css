@@ -53,5 +53,8 @@ section .content h1{
     text-align: center;
 }
 
-
+section .content{
+    font-size: 17pt;
+    font-weight: 300;
+}
 
